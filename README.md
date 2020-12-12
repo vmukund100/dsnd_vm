@@ -8,4 +8,4 @@
 
 ## Installation <a name="installation"></a>
 
-The codes runs should run with no issues using python versions 3. Other packages used (not available in Anaconda Distribution) - Folium (to get beautiful maps given the latitudes and longitudes). The documentation for Folium can be found [here](https://python-visualization.github.io/folium/modules.html#module-folium.map). 
+The codes runs should run with no issues using python versions 3. Other packages used (not available in Anaconda distribution of python) - Folium (to get beautiful maps given the latitudes and longitudes). The documentation for Folium can be found [here](https://python-visualization.github.io/folium/modules.html#module-folium.map). 
