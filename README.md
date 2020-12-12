@@ -2,10 +2,10 @@
 Installation
 Motivation
 File descriptions
-HOw to interact with your project
+How to interact with your project
 Licensing
 Authors
 Acknowledgements
 
-##Installation
+# Installation
 The codes runs should run with no issues using python versions 3. Other packages used - Folium (to get beautiful maps given the latitudes and longitudes)
