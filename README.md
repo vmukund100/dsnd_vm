@@ -28,4 +28,4 @@ There are 2 notebooks available here to help walk through the data analysis for 
 
 ## Results<a name="results"></a>
 
-The main findings of the code can be found at the post available here.
+The main findings of the code can be found at the post available [here](https://vm2018chc2.medium.com/seattle-vs-boston-an-exploration-of-its-airbnb-data-724aa5c9c0b3). 
