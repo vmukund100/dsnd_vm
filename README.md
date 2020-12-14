@@ -15,13 +15,13 @@ For this project, I am looking at the Seattle and boston AirBnB dataset from Kag
 
 A few questions such as explained below are examined: 
 
-1. what are different property types availabls in Boston and Seattle? How are availability distribution of most popular property type in each city?
+1. what are different property types available in Boston and Seattle? How are availability distribution of most popular property type in each city?
 
 2. How is the pricing distribtuions according to neighbourhoods and property types? what are the pricing movements over the time period available in the data sets?
 
 3. A few key factors affect the price of rental places in Seattle. We use machine learning model specifically XGBoost regressor to look into most important features affecting the price. 
 
-A minor digression is made by including two feature such as a list of amenities and methods used to verify host cedentials in the dataset. This involves columns of lists/dictionary with elemtns in quotes. However, it was found that these features does not affect the price significantly. 
+A minor digression is made by including two feature such as a list of amenities and methods used to verify host cedentials in the dataset. This involves columns of lists/dictionary with elements in quotes. However, it was found that these features does not affect the price significantly. 
 
 ## File Descriptions <a name="files"></a>
 
