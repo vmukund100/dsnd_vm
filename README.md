@@ -14,13 +14,14 @@ The codes runs should run with no issues using python versions 3. Other packages
 For this project, I am looking at the Seattle and boston AirBnB dataset from Kaggle found [here](https://www.kaggle.com/airbnb/seattle/notebooks?datasetId=393&sortBy=dateRun). and [here](https://www.kaggle.com/airbnb/boston).
 
 A few questions such as explained below are examined: 
-1A. Most number of  different property types in Seattle
-1B. Availability across different neighbourhoods
-1C. Price depending on property types
-2A. Average pricing across different neighbourhoods
-2B. Booking price acros different months in year 2016-2017
 
-3. A few key factors affect the price of rental places in Seattle. We use machine learning model specifically XGBoost regressor to lok at most important features affecting the price. A minor digression is made by including two feature such as a list of amenities and methods used to verify host cedentials in the dataset. This invovles columns of lists/dictionary with elemtns in quotes. However, it was found that these features does not affect the price significantly. 
+1. what are different property types availabls in Boston and Seattle? How are availability distribution of most popular property type in each city?
+
+2. How is the pricing distribtuions according to neighbourhoods and property types? what are the pricing movements over the time period available in the data sets?
+
+3. A few key factors affect the price of rental places in Seattle. We use machine learning model specifically XGBoost regressor to look into most important features affecting the price. 
+
+A minor digression is made by including two feature such as a list of amenities and methods used to verify host cedentials in the dataset. This involves columns of lists/dictionary with elemtns in quotes. However, it was found that these features does not affect the price significantly. 
 
 ## File Descriptions <a name="files"></a>
 
@@ -29,3 +30,6 @@ There are 2 notebooks available here to help walk through the data analysis for 
 ## Results<a name="results"></a>
 
 The main findings of the code can be found at the post available [here](https://vm2018chc2.medium.com/seattle-vs-boston-an-exploration-of-its-airbnb-data-724aa5c9c0b3). 
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+The data sets are found [here](https://www.kaggle.com/airbnb/seattle/notebooks?datasetId=393&sortBy=dateRun). and [here](https://www.kaggle.com/airbnb/boston). The documentation for Folium can be found [here](https://python-visualization.github.io/folium/modules.html#module-folium.map).
