@@ -32,4 +32,4 @@ There are 2 notebooks available here to help walk through the data analysis for 
 The main findings of the code can be found at the post available [here](https://vm2018chc2.medium.com/seattle-vs-boston-an-exploration-of-its-airbnb-data-724aa5c9c0b3). 
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
-The data sets are found [here](https://www.kaggle.com/airbnb/seattle/notebooks?datasetId=393&sortBy=dateRun). and [here](https://www.kaggle.com/airbnb/boston). The documentation for Folium can be found [here](https://python-visualization.github.io/folium/modules.html#module-folium.map).
+The data sets are found [here](https://www.kaggle.com/airbnb/seattle/notebooks?datasetId=393&sortBy=dateRun). and [here](https://www.kaggle.com/airbnb/boston). The documentation for Folium can be found [here](https://python-visualization.github.io/folium/modules.html#module-folium.map). The documentation for XG Boost regressor can be found [here](https://xgboost.readthedocs.io/en/latest/index.html). 
