@@ -1,8 +1,8 @@
-# Disaster Response Pipeline Project
+### Disaster Response Pipeline Project
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [Files Used and description](#files)
-4. [Instructions](#results)
+4. [Instructions](#instructions)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
@@ -19,7 +19,7 @@ There is a small heirarchy of short codes here. The codes are built in three ste
 2. data - disaster_categories.csv, disaster_messages.csv, process_data.py and a .db file created
 3. models - train_classifier.py and classifier.pkl
 
-### Instructions:
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -33,4 +33,7 @@ There is a small heirarchy of short codes here. The codes are built in three ste
 3. Go to http://0.0.0.0:3001/
 Example web page ![ScreenShot](DisasterWeb_Screenshot.png)
 4. Input a message. For example: We are 15 people stranded on Euclid Ave. We lost power and have heavy floods here. Not sure when the rescue team will be here. 
-![Screenshot2](PageAfterRunningNew message.png)
+EAfter enering the message ![ScreenShot](PageAfterRunningNew message.png)
+
+## Licensing, Authors, Acknowledgements<a name="licensing"></a>
+Documentation of multioutput classifier can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputClassifier.html) and that of cross validated griad search can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
