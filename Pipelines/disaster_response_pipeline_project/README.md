@@ -31,6 +31,7 @@ There is a small heirarchy of short codes here. The codes are built in three ste
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+![](DisasterWeb_Screenshot.png)
 
 4. Input a message. For example: We are 15 people stranded on Euclid Ave. We lost power and have heavy floods here. Not sure when the rescue team will be here. 
 
