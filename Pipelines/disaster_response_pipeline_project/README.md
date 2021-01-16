@@ -33,7 +33,6 @@ There is a small heirarchy of short codes here. The codes are built in three ste
 3. Go to http://0.0.0.0:3001/
 
 4. Input a message. For example: We are 15 people stranded on Euclid Ave. We lost power and have heavy floods here. Not sure when the rescue team will be here.
-![](PageAfterRunningNew message.png)
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 Documentation of multioutput classifier can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputClassifier.html) and that of cross validated griad search can be found [here](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html).
