@@ -27,8 +27,10 @@ def clean_data(df):
     # create a dataframe of the 36 individual category columns
     df2_categories = df['categories'].str.split(';', expand =True)
     #select the first row of the categories dataframe and use this row to extract a list of new column names for categories.
-    row = df2_categories.iloc[0,:]
-    category_colnames = row.apply(lambda x:x[:-2]) 
+    row = df2_categories.loc[0]
+    category_colnames = row.apply(lambda x:x[:-2]).values.tolist()
+    df2_categories.columns = category_colnames
+    df2_categories.related.loc[df2_categories.related=='related-2'] = 'related-1'
     df2_categories.columns = category_colnames
     # convert category values to just 1 or 0
     for column in df2_categories:
