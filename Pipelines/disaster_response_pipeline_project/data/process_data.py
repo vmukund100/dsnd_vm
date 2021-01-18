@@ -54,7 +54,8 @@ def save_data(df, database_filename):
     Return: Saves .db file 
     '''
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('test', engine, index=False)
+    df.to_sql('test', engine, index=False,  if_exists='replace')
+    #engine.dispose()
      
 
 
