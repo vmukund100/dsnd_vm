@@ -53,7 +53,7 @@ def save_data(df, database_filename):
     Arg: pandas.DataFrame transformed in clean_data
     Return: Saves .db file 
     '''
-    engine = create_engine('sqlite:///test.db')
+    engine = create_engine('sqlite:///' + database_filename)
     df.to_sql('test', engine, index=False)
      
 
