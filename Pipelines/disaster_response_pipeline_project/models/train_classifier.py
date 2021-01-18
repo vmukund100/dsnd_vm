@@ -41,7 +41,7 @@ def load_data(database_filepath):
     Y the target and category labels corresponding to each X
     '''
     # load data from database
-    engine = create_engine('sqlite:///test.db')
+    engine = create_engine('sqlite:///'+ database_filepath)
     #df.to_sql('test', engine, index=False)
     df = pd.read_sql_table('test', engine)
     X = df['message']
